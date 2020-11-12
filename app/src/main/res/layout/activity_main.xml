@@ -7,19 +7,77 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.hhb.demotablib.tab.ViewPagerIndicator
-        android:id="@+id/scroll"
+    <com.hhb.demotablib.view.ScrollViewGroup
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:scrollbars="none"
-        app:indicator_color="@android:color/holo_red_dark"
-        app:indicator_shap="tranggle"
-        app:tab_count="4">
+        android:layout_height="wrap_content">
 
-    </com.hhb.demotablib.tab.ViewPagerIndicator>
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView1" />
+
+
+    </com.hhb.demotablib.view.ScrollViewGroup>
 </LinearLayout>
